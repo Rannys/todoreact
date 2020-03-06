@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.complete{
+    height: 40px;
+     width:10rem ; 
+    margin-right: 20px;
+    border: 2px solid rgba(112, 115, 128,1) ;
+    background-color: transparent;
+    border-radius: 3px;
+    color: rgba(112, 115, 128,1);
+}
+.delete{
+    height: 40px;
+    width: 10rem;
+    margin-right: 20px;
+    border: 2px solid rgba(112, 115, 128,1) ;
+    background-color: transparent;
+    border-radius: 3px;
+    color: rgba(112, 115, 128,1);
+}
+.section{
+    display: flex;
+    margin-top: 3%;
+}
+.normal{
+    font-size: 20px;
+    font-weight: 600;
+    color:#ababab ;
+}
+
+.section h2{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    color: rgba(112, 115, 128,1);}
+.App{
+    background-color: rgb(82, 108, 235,1);
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    height: 25rem;
+    justify-content: space-around;
+    padding-right: 50px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+}
+.App h1{
+    font-weight: 700;
+    color: white;
+    font-size: 60px;
+    padding: 0px 30px 1px 0px;
+    
+    
+
+}
+.App p{
+    font-weight: 600;
+    color: white;
+    font-size: 30px;
+    padding: 0px 30px 1px 0px;}
+.inputText{
+    height: 50px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid rgb(82, 108, 235,1); 
+    padding: 0px 30px 1px 0px;
+}
+.through{
+    text-decoration: line-through;
+}
+.title{
+    margin-left: 40%;
+  color:#ababab ; 
+  
+}
+.addBtn{
+    height: 50px;
+    width: 10%;
+    background-color: rgb(82, 108, 235,1);
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 0px 30px 1px 0px;
+}
+.addBtn:hover{
+    background-color:#404e94;
+}
